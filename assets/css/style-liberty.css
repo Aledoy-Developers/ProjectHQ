@@ -18182,6 +18182,10 @@ p.white {
     border-radius: var(--border-radius-full);
 }
 
+/* .w3hny-passion-item{
+    position: relative;
+} */
+
 .passion-grid-item-pic{
     display: flex;
     align-items: center;
