@@ -186,7 +186,7 @@
                         <h6 class="title-subw3hny mb-1">About ProductLead HQ</h6>
                         <h3 class="title-w3l mb-4">At Product Lead HQ, we help ambitious professionals from non-tech backgrounds.</h3>
                         <p class="mt-3 pe-lg-5">
-                             Yes even Microbiology make a smooth transition into high-paying tech careers. Whether you want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in Cloud Computing (AWS), we provide the training and support to get you there faster.
+                            Yes even Microbiology make a smooth transition into high-paying tech careers. Whether you want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in Cloud Computing (AWS), we provide the training and support to get you there faster.
 
                             Our hands-on programs combine real-world projects, industry-recognized certifications, and expert mentorship so you gain the practical skills employers want. We offer:
 
@@ -651,7 +651,7 @@
                     <div class="access-status">Not shared</div>
                 </div>
 
-                <form action="proc-index.php" method="post" >
+                <form action="proc-index.php" method="post">
 
 
                     <div>
@@ -688,34 +688,44 @@
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="aws-cloud" id="radio">
-                            <span>AWS Cloud Computing</span>
+                            <span>AWS Cloud Computing: <strong>$2,000</strong></span>
                         </label>
 
                         <label class="radio-option">
-                            <input type="radio" name="program" value="product-ownership" id=" radio">
-                            <span>Product Ownership/Management</span>
+                            <input type="radio" name="program" value="product-ownership" id="radio">
+                            <span>Product Ownership: <strong>$2,000</strong></span>
                         </label>
 
                         <label class="radio-option">
-                            <input type="radio" name="program" value="data-analysis" id="radio">
-                            <span>Data Analysis</span>
+                            <input type="radio" name="program" value="management" id="radio">
+                            <span>Product Management: <strong>$2,500</strong></span>
+                        </label>
+
+                        <label class="radio-option">
+                            <input type="radio" name="program" value="data" id="radio">
+                            <span>Data: <strong>$3,000</strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="business-analysis" id="radio">
-                            <span>Business Analysis</span>
+                            <span>Business Analysis: <strong>$1,500</strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="product-design" id="radio">
-                            <span>Product Design (UI/UX)</span>
+                            <span>Product Design (UI/UX): <strong>$1,200</strong></span>
+                        </label>
+
+                        <label class="radio-option">
+                            <input type="radio" name="program" value="cyber-security" id="radio">
+                            <span>Cyber Security: <strong>$2,000</strong></span>
                         </label>
                     </div>
 
-                    <div class="input-group">
+                    <!-- <div class="input-group">
                         <label>What technical skills or experience do you already have? (optional)</label>
                         <input type="text" placeholder="Your answer" name="skill" />
-                    </div>
+                    </div> -->
 
                     <div class="button-row">
                         <button class="btn-primary" type="submit">Submit</button>

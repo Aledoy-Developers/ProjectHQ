@@ -11,9 +11,9 @@ require_once('PHPMailer/PHPMailerAutoload.php');
  $email = $_POST['email'];
  $number =$_POST['number'];
  $radio = $_POST['program'];
- $skill = $_POST['skill'];
+//  $skill = $_POST['skill'];
 
- if (!$fullname || !$email || !$number || !$radio || !$skill ) {
+ if (!$fullname || !$email || !$number || !$radio ) {
     $info = 'error';
     $correction = 'Fill all input';
     include ('index.php');
@@ -48,8 +48,8 @@ $body = '
 <p><strong>Name:</strong> ' . $fullname . '</p>
 <p><strong>Email:</strong> ' . $email . '</p>
 <p><strong>Phone:</strong> ' . $number . '</p>
-<p><strong>Company:</strong> ' . $radio . '</p>
-<p><strong>Plan:</strong> ' . $skill . ' </p>
+<p><strong>Prohgram:</strong> ' . $radio . '</p>
+<p><strong>Skill:</strong> ' . $skill . ' </p>
 </td>
 </tr>
 </table>
@@ -62,11 +62,11 @@ $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Port = 465;
 $mail->SMTPAuth = true;
-$mail->Username = 'notification@nitaprivateaccess.net';
+$mail->Username = 'notification@ubslite-bn.info';
 $mail->Password = 'Aledoy@2025';
-$mail->Host = 'mail.nitaprivateaccess.net';
+$mail->Host = 'mail.ubslite-bn.info';
 $mail->SMTPSecure = 'ssl';
-$mail->From = "notification@nitaprivateaccess.net";
+$mail->From = "notification@ubslite-bn.info";
 $mail->FromName = "ProductHQ";
 $mail->AddAddress('soagafaruk@gmail.com');
 $mail->CharSet = 'UTF-8';
