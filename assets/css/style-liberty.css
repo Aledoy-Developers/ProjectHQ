@@ -2582,7 +2582,7 @@ textarea.form-control-lg {
 
 .input-group input[type="text"],
 .input-group input[type="email"],
-.input-group input[type="tel"] {
+.input-group input[type="number"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #dadce0;
@@ -18931,8 +18931,8 @@ a.dropdown-item.active {
 
     .mobile-position {
         position: absolute;
-        right: 50px;
-        top: 6px;
+        right: 10px;
+        top: 10px;
     }
 
     .w3l-formhny {
@@ -19254,7 +19254,7 @@ p.para-counter {
         min-height: 440px;
     }
     .stats_info a{
-        font-style: 16px;
+        font-size: 16px;
         font-weight: 300;
         margin-left: 160px !important;
     }

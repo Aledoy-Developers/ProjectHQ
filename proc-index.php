@@ -3,6 +3,8 @@
 error_reporting(E_ALL);
 ini_set("display_errors" ,0);
 
+require_once('PHPMailer/PHPMailerAutoload.php');
+
 
 
  $fullname = $_POST['full_name'];
@@ -18,7 +20,7 @@ ini_set("display_errors" ,0);
     exit;
  }
 
- if (strlen ( $number != 11 ))
+ if (strlen($number) != 11)
  {
     $info = 'error';
     $correction = 'Phone must be 11 Digits';
@@ -66,15 +68,29 @@ $mail->Host = 'mail.nitaprivateaccess.net';
 $mail->SMTPSecure = 'ssl';
 $mail->From = "notification@nitaprivateaccess.net";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('bookus@lsgglobal.com');
+$mail->AddAddress('soagafaruk@gmail.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $body;
 $mail->send();
 
-$info = 'accepted';
-include('index.php');
-exit;
 
+// if (!$mail->send()) {
+//    echo 'Message could not be sent.';
+//    echo 'Mailer Error:' . $mail->ErrorInfo;
+//    exit;
+// }
+
+
+if ($info == 'accepted')
+{
+   include('index.php');
+   exit;
+}
+else {
+   $info = 'error';
+   $correction = 'Could Not Send Mail';
+   include('index.php');
+}
 ?>

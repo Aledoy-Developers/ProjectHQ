@@ -651,14 +651,14 @@
                     <div class="access-status">Not shared</div>
                 </div>
 
-                <form action="proc-index.php" method="post" enctype="multipart/form-data">
+                <form action="proc-index.php" method="post" >
 
 
                     <div>
 
                         <div>
                             <?php if ($info == 'accepted') { ?>
-                                <div class="alert alert-sucess">Accepted</div>
+                                <div class="alert alert-success">Accepted</div>
                         </div>
                     <?php } ?>
 
@@ -680,7 +680,7 @@
                         <input type="email" placeholder="Your answer" name="email" />
 
                         <label>Mobile phone number</label>
-                        <input type="tel" placeholder="Your answer" name="number" />
+                        <input type="number" placeholder="Your answer" name="number" />
                     </div>
 
                     <div class="radio-group-box">
