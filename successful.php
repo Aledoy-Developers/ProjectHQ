@@ -1,8 +1,12 @@
-<?php
+ <?php 
 
-$fullname = base64_decode($_GET['nm']);
+error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
+ini_set('display_errors', 0);
+ob_start();
+
+// $fullname = base64_decode($_GET['nm']);
+$amount =  base64_decode($_GET['am']);
 $program = base64_decode($_GET['program']);
-$email = base64_decode($_GET['em']);
 
 if($program == 'aws-cloud')
 {
@@ -32,7 +36,7 @@ else
 {
     $amount = '2000';
 }
-?>
+?> 
 <!doctype html>
 <html lang="en">
 
@@ -129,14 +133,12 @@ else
     <section class="form-box" id="contact">
         <div class="box-wrapper">
             <div class="content-card">
-                <h1>Thank you <?php echo strtoupper($fullname); ?></h1>
-                <p class="info-text">
-                    Your registration for the <?php echo ucwords($program); ?> was successful <br><br>
-
-                    Please <a
-                        href="stripe/checkout.php?am=<?php echo base64_encode($amount);?>&nm=<?php echo base64_encode($fullname);?>&em=<?php echo base64_encode($email);?>&program=<?php echo base64_encode($program);?>">proceed</a>
-                    to make payment for the program of $<?php echo ($amount) ?>.
-                </p>
+               
+                <h1 class="info-text">
+                Thank you for your payment of $<?php echo $amount ?>. 
+</h1>
+<a href="index.php">Back to homepage</a>
+                
 
 
 
