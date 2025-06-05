@@ -186,11 +186,11 @@
                         <h6 class="title-subw3hny mb-1">About ProductLead HQ</h6>
                         <h3 class="title-w3l mb-4">At Product Lead HQ, we help ambitious professionals from non-tech backgrounds.</h3>
                         <p class="mt-3 pe-lg-5">
-                            Yes even Microbiology make a smooth transition into high-paying tech careers. Whether you want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in Cloud Computing (AWS), we provide the training and support to get you there faster.
+                            Yes even Microbiology make a smooth transition into high-paying tech careers. Whether you want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in Cloud Computing (AWS), we provide the training and support to get you there faster. <br><br>
 
                             Our hands-on programs combine real-world projects, industry-recognized certifications, and expert mentorship so you gain the practical skills employers want. We offer:
 
-                            Career clarity sessions to map your best path.
+                            Career clarity sessions to map your best path. <br>
 
                             Project-based training with tools like Figma, Jira, SQL, and AWS.
 
@@ -291,7 +291,7 @@
                                 <img src="assets/images/client.png" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Amazon Web Services.</h3>
+                                        <h3>Click Here.</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
@@ -304,7 +304,7 @@
                                 <img src="assets/images/client3.png" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Amazon Web Services.</h3>
+                                        <h3>Click Here.</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@
                                 <img src="assets/images/client4.png" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Amazon Web Services.</h3>
+                                        <h3>Click Here.</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
