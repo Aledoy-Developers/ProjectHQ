@@ -10,34 +10,27 @@ require_once('PHPMailer/PHPMailerAutoload.php');
  $fullname = $_POST['full_name'];
  $email = $_POST['email'];
  $number =$_POST['number'];
- $radio = $_POST['program'];
-//  $skill = $_POST['skill'];
+ $program = $_POST['program'];
+ $skill = $_POST['skill'];
 
- if (!$fullname || !$email || !$number || !$radio ) {
+ if (!$fullname || !$email || !$number || !$program ) {
     $info = 'error';
-    $correction = 'Fill all input';
+    $correction = 'All information required';
     include ('index.php');
     exit;
  }
 
- if (strlen($number) != 11)
- {
-    $info = 'error';
-    $correction = 'Phone must be 11 Digits';
-    include('index.php');
-    exit;
- }
 
  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $info = 'error';
-    $correction = 'Invalid Email';
+    $correction = 'Please enter a valid email';
     include('index.php');
     exit;
  }
 
 
 
-$subject = 'New Registration from Website';
+$subject = $fullname.' registers for '.$program;
 $body = '
 <table cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, sans-serif; color: #333;">
 <tr>
@@ -48,7 +41,7 @@ $body = '
 <p><strong>Name:</strong> ' . $fullname . '</p>
 <p><strong>Email:</strong> ' . $email . '</p>
 <p><strong>Phone:</strong> ' . $number . '</p>
-<p><strong>Prohgram:</strong> ' . $radio . '</p>
+<p><strong>Program:</strong> ' . $program . '</p>
 <p><strong>Skill:</strong> ' . $skill . ' </p>
 </td>
 </tr>
@@ -68,29 +61,23 @@ $mail->Host = 'mail.ubslite-bn.info';
 $mail->SMTPSecure = 'ssl';
 $mail->From = "notification@ubslite-bn.info";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('soagafaruk@gmail.com');
+$mail->AddAddress('luabikoye@gmail.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $body;
-$mail->send();
 
-
-// if (!$mail->send()) {
-//    echo 'Message could not be sent.';
-//    echo 'Mailer Error:' . $mail->ErrorInfo;
-//    exit;
-// }
-
-
-if ($info == 'accepted')
-{
+if (!$mail->send()) {
+   $correction = 'Could Not Send Mail';
    include('index.php');
    exit;
 }
-else {
-   $info = 'error';
-   $correction = 'Could Not Send Mail';
-   include('index.php');
-}
+
+$name = base64_encode($fullname);
+$pr = base64_encode($program);
+$em = base64_encode($email);
+
+
+   header("Location: thankyou.php?nm=$name&program=$pr&em=$em");
+   exit;
 ?>
