@@ -12,7 +12,7 @@ ini_set('display_errors', 0);
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Project Lead HQ</title>
+    <title>Product Lead HQ | Train, Certify, Get Hired</title>
     <!-- google fonts -->
     <link
         href="http://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&amp;display=swap"
@@ -198,7 +198,8 @@ ini_set('display_errors', 0);
                         <h6 class="title-subw3hny mb-1">About ProductLead HQ</h6>
                         <h3 class="title-w3l mb-4">At Product Lead HQ, we help ambitious professionals.</h3>
                         <p class="mt-3 pe-lg-5">
-                            From non-tech backgrounds even Microbiology make a smooth transition into high-paying tech careers. Whether you
+                            From non-tech backgrounds even Microbiology make a smooth transition into high-paying tech
+                            careers. Whether you
                             want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in
                             Cloud Computing (AWS), we provide the training and support to get you there faster. <br><br>
 
@@ -671,15 +672,15 @@ ini_set('display_errors', 0);
 
                         <div>
                             <?php if ($info == 'accepted') { ?>
-                                <div class="alert alert-success">Accepted</div>
+                            <div class="alert alert-success">Accepted</div>
                         </div>
-                    <?php } ?>
+                        <?php } ?>
 
-                    <div>
-                        <?php if ($info == 'error') { ?>
+                        <div>
+                            <?php if ($info == 'error') { ?>
                             <div class="alert alert-danger"><?php echo $correction ?></div>
-                    </div>
-                <?php } ?>
+                        </div>
+                        <?php } ?>
 
                     </div>
 
@@ -938,39 +939,39 @@ ini_set('display_errors', 0);
             <span class="fas fa-level-up-alt" aria-hidden="true"></span>
         </button>
         <script>
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {
-                scrollFunction()
-            };
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    document.getElementById("movetop").style.display = "block";
-                } else {
-                    document.getElementById("movetop").style.display = "none";
-                }
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
             }
+        }
 
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
         </script>
 
         <script>
-            let selectedRadio = null;
+        let selectedRadio = null;
 
-            document.querySelectorAll('input[type="radio"][name="program"]').forEach(radio => {
-                radio.addEventListener('click', function() {
-                    if (selectedRadio === this) {
-                        this.checked = false;
-                        selectedRadio = null;
-                    } else {
-                        selectedRadio = this;
-                    }
-                });
+        document.querySelectorAll('input[type="radio"][name="program"]').forEach(radio => {
+            radio.addEventListener('click', function() {
+                if (selectedRadio === this) {
+                    this.checked = false;
+                    selectedRadio = null;
+                } else {
+                    selectedRadio = this;
+                }
             });
+        });
         </script>
         <!-- //move top -->
     </footer>
@@ -983,115 +984,115 @@ ini_set('display_errors', 0);
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/jquery.chocolat.js"></script>
     <script type="text/javascript ">
-        //$(function() {
-        //   $('.w3_agile_portfolio_grid a').Chocolat();
-        // });
+    //$(function() {
+    //   $('.w3_agile_portfolio_grid a').Chocolat();
+    // });
     </script>
     <!-- /js for portfolio lightbox -->
     <!-- stats number counter-->
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/jquery.countup.js"></script>
     <script>
-        $('.counter').countUp();
+    $('.counter').countUp();
     </script>
     <!-- //stats number counter -->
     <!-- owlcarousel -->
     <script src="assets/js/owl.carousel.js"></script>
     <!-- script for banner slider-->
     <script>
-        $(document).ready(function() {
-            $('.owl-one').owlCarousel({
-                loop: true,
-                margin: 0,
-                nav: false,
-                responsiveClass: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplaySpeed: 1000,
-                autoplayHoverPause: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    480: {
-                        items: 1
-                    },
-                    667: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
+    $(document).ready(function() {
+        $('.owl-one').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                480: {
+                    items: 1
+                },
+                667: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
                 }
-            })
+            }
         })
+    })
     </script>
     <!-- //script -->
     <!-- script for tesimonials carousel slider -->
     <script src="assets/js/owl.carousel.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $("#owl-demo1").owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: false,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    768: {
-                        items: 2,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: false,
-                        loop: false
-                    }
+    $(document).ready(function() {
+        $("#owl-demo1").owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                768: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false,
+                    loop: false
                 }
-            })
+            }
         })
+    })
     </script>
     <!-- //script for tesimonials carousel slider -->
     <!-- video popup -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('.popup-with-zoom-anim').magnificPopup({
-                type: 'inline',
+    $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
 
-                fixedContentPos: false,
-                fixedBgPos: true,
+            fixedContentPos: false,
+            fixedBgPos: true,
 
-                overflowY: 'auto',
+            overflowY: 'auto',
 
-                closeBtnInside: true,
-                preloader: false,
+            closeBtnInside: true,
+            preloader: false,
 
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-zoom-in'
-            });
-
-            $('.popup-with-move-anim').magnificPopup({
-                type: 'inline',
-
-                fixedContentPos: false,
-                fixedBgPos: true,
-
-                overflowY: 'auto',
-
-                closeBtnInside: true,
-                preloader: false,
-
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-slide-bottom'
-            });
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
         });
+
+        $('.popup-with-move-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-slide-bottom'
+        });
+    });
     </script>
     <!-- //video popup -->
     <!--/search-->
@@ -1101,77 +1102,77 @@ ini_set('display_errors', 0);
     <!--//search-->
     <!-- MENU-JS -->
     <script>
-        $(window).on("scroll", function() {
-            var scroll = $(window).scrollTop();
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
 
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
 
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function() {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function() {
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function() {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function() {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function() {
             if ($(window).width() > 991) {
                 $("header").removeClass("active");
             }
-            $(window).on("resize", function() {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
-                }
-            });
         });
+    });
     </script>
     <!-- //MENU-JS -->
 
     <!-- disable body scroll which navbar is in active -->
     <script>
-        $(function() {
-            $('.navbar-toggler').click(function() {
-                $('body').toggleClass('noscroll');
-            })
-        });
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
     </script>
     <!-- //disable body scroll which navbar is in active -->
     <!-- //bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
 
     <script>
-        (function() {
-            function c() {
-                var b = a.contentDocument || a.contentWindow.document;
-                if (b) {
-                    var d = b.createElement('script');
-                    d.innerHTML =
-                        "window.__CF$cv$params={r:'948588dcbfe40016',t:'MTc0ODY4NDY4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../../../../cdn-cgi/challenge-platform/h/g/scripts/jsd/6fab0cec561d/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
-                    b.getElementsByTagName('head')[0].appendChild(d)
+    (function() {
+        function c() {
+            var b = a.contentDocument || a.contentWindow.document;
+            if (b) {
+                var d = b.createElement('script');
+                d.innerHTML =
+                    "window.__CF$cv$params={r:'948588dcbfe40016',t:'MTc0ODY4NDY4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../../../../../../cdn-cgi/challenge-platform/h/g/scripts/jsd/6fab0cec561d/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                b.getElementsByTagName('head')[0].appendChild(d)
+            }
+        }
+        if (document.body) {
+            var a = document.createElement('iframe');
+            a.height = 1;
+            a.width = 1;
+            a.style.position = 'absolute';
+            a.style.top = 0;
+            a.style.left = 0;
+            a.style.border = 'none';
+            a.style.visibility = 'hidden';
+            document.body.appendChild(a);
+            if ('loading' !== document.readyState) c();
+            else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+            else {
+                var e = document.onreadystatechange || function() {};
+                document.onreadystatechange = function(b) {
+                    e(b);
+                    'loading' !== document.readyState && (document.onreadystatechange = e, c())
                 }
             }
-            if (document.body) {
-                var a = document.createElement('iframe');
-                a.height = 1;
-                a.width = 1;
-                a.style.position = 'absolute';
-                a.style.top = 0;
-                a.style.left = 0;
-                a.style.border = 'none';
-                a.style.visibility = 'hidden';
-                document.body.appendChild(a);
-                if ('loading' !== document.readyState) c();
-                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
-                else {
-                    var e = document.onreadystatechange || function() {};
-                    document.onreadystatechange = function(b) {
-                        e(b);
-                        'loading' !== document.readyState && (document.onreadystatechange = e, c())
-                    }
-                }
-            }
-        })();
+        }
+    })();
     </script>
 </body>
 

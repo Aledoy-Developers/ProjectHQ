@@ -44,7 +44,7 @@ else
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Project Lead HQ</title>
+    <title>Product Lead HQ | Train, Certify, Get Hired</title>
     <!-- google fonts -->
     <link
         href="http://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&amp;display=swap"
