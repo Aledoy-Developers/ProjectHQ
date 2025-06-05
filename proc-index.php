@@ -61,7 +61,7 @@ $mail->Host = 'mail.ubslite-bn.info';
 $mail->SMTPSecure = 'ssl';
 $mail->From = "notification@ubslite-bn.info";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('luabikoye@gmail.com');
+$mail->AddAddress('info@productleadhq.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
