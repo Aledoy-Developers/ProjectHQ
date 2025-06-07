@@ -60,7 +60,7 @@ $mail = new PHPMailer();
 // $mail->SMTPSecure = 'tls';
 $mail->From = "noreply@ecardnaija.com";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('luabikoye@gmail.com');
+$mail->AddAddress('info@productleadhq.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
