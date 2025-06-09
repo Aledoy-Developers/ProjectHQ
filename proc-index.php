@@ -73,11 +73,14 @@ if (!$mail->send()) {
    exit;
 }
 
+
+
 $name = base64_encode($fullname);
 $pr = base64_encode($program);
 $em = base64_encode($email);
 
 
-   header("Location: thankyou.php?nm=$name&program=$pr&em=$em");
-   exit;
+header("Location: thankyou.php?nm=$name&program=$pr&em=$em");
+exit;
+
 ?>
