@@ -19,6 +19,9 @@ ini_set('display_errors', 0);
         rel="stylesheet">
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/fav.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -194,7 +197,7 @@ ini_set('display_errors', 0);
         <div class="container py-md-5 py-3">
             <div class="container">
                 <div class="row w3l-passion-mid-grids">
-                    <div class="col-lg-6 passion-grid-item-info pe-lg-5 mb-lg-0 mb-5">
+                    <div class="col-lg-8 passion-grid-item-info pe-lg-5 mb-lg-0 mb-5">
                         <h6 class="title-subw3hny mb-1">About ProductLead HQ</h6>
                         <h3 class="title-w3l mb-4">At Product Lead HQ, we help ambitious professionals.</h3>
                         <p class="mt-3 pe-lg-5">
@@ -221,15 +224,39 @@ ini_set('display_errors', 0);
                             proven strategies that lead to real tech opportunities.</p>
 
                     </div>
-                    <div class="col-lg-6  d-flex  align-items-center w3hny-passion-item">
+                    <!-- <div class="col-lg-5  d-flex  align-items-center w3hny-passion-item">
                         <div class="row  d-flex">
-                            <div class="col-6 passion-grid-item-pic">
+                            <div class=" passion-grid-item-pic">
                                 <img src="assets/images/about-img.png" alt="" class="img-fluid radius-image">
                             </div>
                             <div class="col-6 passion-grid-item-pic">
                                 <img src="assets/images/client2.png" alt="" class="img-fluid radius-image">
                             </div>
 
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-5 d-flex align-items-center w3hny-passion-item">
+                        <div class="row d-flex">
+                            <div class="passion-grid-item-pic">
+                                <div class="image-hover-wrapper">
+                                    <img src="assets/images/about-img.png" alt="Main" class="img-fluid radius-image main-img">
+                                    <img src="assets/images/client2.png" alt="Hover" class="img-fluid radius-image hover-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-4 d-flex align-items-center w3hny-passion-item">
+                        <div class="row d-flex">
+                            <div class="passion-grid-item-pic">
+                                <div class="image-hover-wrapper">
+                                    <!-- First Image (Default) -->
+                                    <img src="assets/images/about-img.png" alt="Main Image" class="img-fluid radius-image main-img">
+
+                                    <!-- Second Image (Zooms In From Center) -->
+                                    <img src="assets/images/client2.png" alt="Hover Image" class="img-fluid radius-image hover-img">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -304,10 +331,10 @@ ini_set('display_errors', 0);
                     <li>
                         <div class="w3_agile_portfolio_grid">
                             <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
-                                <img src="assets/images/client.png" alt=" " class="img-fluid radius-image" />
+                                <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Click Here.</h3>
+                                        <h3>Cyber Security.</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
@@ -317,10 +344,10 @@ ini_set('display_errors', 0);
                     <li>
                         <div class="w3_agile_portfolio_grid">
                             <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
-                                <img src="assets/images/client3.png" alt=" " class="img-fluid radius-image" />
+                                <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Click Here.</h3>
+                                        <h3>Data Analysis.</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
@@ -330,10 +357,50 @@ ini_set('display_errors', 0);
                     <li>
                         <div class="w3_agile_portfolio_grid">
                             <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
-                                <img src="assets/images/client4.png" alt=" " class="img-fluid radius-image" />
+                                <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Click Here.</h3>
+                                        <h3>Product Design UI/UX.</h3>
+                                        <!-- <p>Lorem Ipsum</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="w3_agile_portfolio_grid">
+                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
+                                <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
+                                <div class="w3layouts_news_grid_pos">
+                                    <div class="wthree_text">
+                                        <h3>Product Managemant.</h3>
+                                        <!-- <p>Lorem Ipsum</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="w3_agile_portfolio_grid">
+                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                                <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
+                                <div class="w3layouts_news_grid_pos">
+                                    <div class="wthree_text">
+                                        <h3>Bussiness Analysis.</h3>
+                                        <!-- <p>Lorem Ipsum</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="w3_agile_portfolio_grid">
+                            <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                                <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
+                                <div class="w3layouts_news_grid_pos">
+                                    <div class="wthree_text">
+                                        <h3>Amazon Web Service(AWS).</h3>
                                         <!-- <p>Lorem Ipsum</p> -->
                                     </div>
                                 </div>
@@ -426,6 +493,458 @@ ini_set('display_errors', 0);
             </div>
         </div>
     </section>
+
+    <!-- <div class="news-slider-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="news-slider" id="newsSlider">
+                    <div class="news-slide">
+                        <div class="col-md-6">
+                            <img src="assets/images/ab1.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..</div>
+                        </div>
+                    </div>
+                    <div class="news-slide">
+                        <div class="col-md-6">
+                            <img src="assets/images/ab1.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..</div>
+                        </div>
+                    </div>
+                    <div class="news-slide">
+                        <div class="col-md-6">
+                            <img src="assets/images/ab1.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..</div>
+                        </div>
+                    </div>
+                    <div class="news-slide">
+                        <div class="col-md-6">
+                            <img src="assets/images/ab1.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div id="newsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="heading text-center mx-auto">
+            <h3 class="title-w3l mb-5 text-center">Blog Posts</h3>
+        </div>
+        <div class="carousel-inner">
+            <div class="container">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/blog-img.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/blog-img.jpg" alt="News 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/blog-img.jpg" alt="News 1">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore alias neque voluptates dolores in deleniti nisi vel maiores, quod necessitatibus libero ratione tempora corporis esse velit nemo magni sunt eius..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <!-- <section class="blog-section py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Latest Blog Posts</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/blog-img.jpg" class="card-img-top" alt="Blog Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Tips for Fast & Safe Deliveries</h5>
+                            <p class="card-text">Learn how to ensure your packages arrive quickly and securely with our expert delivery tips.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/blog-img.jpg" class="card-img-top" alt="Blog Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Behind the Scenes at Laytob LIMITED</h5>
+                            <p class="card-text">Take a look at our daily operations and how we keep your deliveries on track.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/blog-img.jpg" class="card-img-top" alt="Blog Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Why Same-Day Delivery is the Future</h5>
+                            <p class="card-text">Discover why businesses and customers are choosing faster delivery options more than ever.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="blog-section py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Latest Blog Posts</h2>
+
+            <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center bg-white p-3 rounded shadow">
+                            <div class="col-md-6">
+                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 1">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>The Future of Logistics: Mobile Apps & Same-Day Delivery</h4><br>
+                                <p class="fs-5">With mobile-first solutions becoming the norm, logistics companies are racing to make deliveries faster and more convenient. Laytob Limited is staying ahead by exploring app-based order systems and lightning-fast same-day services.</p><br>
+                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center bg-white p-3 rounded shadow">
+                            <div class="col-md-6">
+                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 2">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>How AI is Changing the Delivery Industry</h4><br>
+                                <p class="fs-5">Artificial Intelligence is transforming logistics. From route optimization to customer service chatbots, companies like Laytob Limited are embracing smart tech to improve delivery speed and customer satisfaction.</p><br>
+                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center bg-white p-3 rounded shadow">
+                            <div class="col-md-6">
+                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 3">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>GPS & Real-Time Tracking: The New Standard in Deliveries</h4><br>
+                                <p class="fs-5">Customers now expect live updates on where their packages are. GPS technology allows Laytob Limied to provide precise, real-time package tracking — giving customers peace of mind from dispatch to doorstep.</p><br>
+                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Optional: Navigation controls -->
+    <!-- <div class="control-button">
+            <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+         </div> -->
+
+    </div>
+
+
+    <!-- <section class="cards_body">
+        <h3 class="title-w3l mb-5 text-center">Testimonials</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cards">
+                        <img class="cards-img-top img-fluid" src="assets/images/about-img.png" alt="Card image cap">
+                        <div class="cards-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <img class="cards-img-top img-fluid" src="assets/images/about-img.png" alt="Card image cap">
+                        <div class="cards-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <img class="cards-img-top img-fluid" src="assets/images/about-img.png" alt="Card image cap">
+                        <div class="cards-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="w3l-clients" id="clients">
+        <!-- /grids -->
+        <div class="cusrtomer-layout py-5">
+            <div class="container py-lg-4 py-md-3 pb-lg-0">
+                <div class="heading text-center mx-auto">
+                    <!-- <h6 class="sub-title text-center">Our Team</h6> -->
+                    <h3 class="title-w3l mb-5 text-center">Testimonials</h3>
+                </div>
+                <!-- /grids -->
+                <div class="testimonial-width">
+                    <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Product Design</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Data Analysis</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Product Ownership</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Bussiness Analysis</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Amazon Web Service(AWS)</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-content">
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</p>
+                                        <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
+                                        </div> -->
+                                    </blockquote>
+                                    <div class="testi-des">
+                                        <div class="peopl align-self">
+                                            <h3>Cyber Security</h3>
+                                            <h4>John Doe</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /grids -->
+        </div>
+        <!-- //grids -->
+    </section>
+
+
+
+
+
+
+    <section class="company_logo mt-5">
+        <div class="heading text-center mx-auto">
+            <!-- <h6 class="sub-title text-center">Our Team</h6> -->
+            <h3 class="title-w3l mb-5 text-center">Partners & Clients</h3>
+        </div>
+        <div class="company_slide">
+            <div class="company-track">
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/logo1.png" alt="">
+                </div>
+                <div class="company">
+                    <img src="assets/images/aledoy-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <section class="company_logo">
+        <div class="company_slide">
+            <div class="company-track">
+                <div class="company-logos">
+                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+                    
+                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
     <!--//Gallery-Section-->
     <!--/w3-grids-->
     <!-- <section class="w3l-passion-mid-sec py-5">
@@ -837,17 +1356,16 @@ ini_set('display_errors', 0);
                             <p class="footer-phny pe-lg-5">At ProductLead HQ, we specialize in helping ambitious
                                 professionals from non-tech backgrounds (yes, even Microbiology!).</p>
                             <div class="columns-2 mt-lg-5 mt-4">
-                                <ul class="social">
+                                <!-- <ul class="social">
                                     <li><a href="#facebook"><span class="fab fa-facebook-f"></span></a>
                                     </li>
                                     <li><a href="#linkedin"><span class="fab fa-linkedin-in"></span></a>
                                     </li>
                                     <li><a href="#twitter"><span class="fab fa-twitter"></span></a>
                                     </li>
-                                    <li><a href="#google"><span class="fab fa-google-plus-g"></span></a>
+                                    <li><a href="#google"><span class="fab fa-instagram"></span></a>
                                     </li>
-
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <div class="col-lg-3 sub-two-right">
@@ -881,21 +1399,34 @@ ini_set('display_errors', 0);
                             </ul>
                         </div>
                         <div class="col-lg-3 sub-one-left">
-                            <h6>Recent Posts </h6>
+                            <h6>Ongoing Training</h6>
                             <div class="row fposts-grid-inner mb-4">
                                 <div class="col-4 fposts-grid-left ps-0">
                                     <a href="https://www.instagram.com/p/DHn6VJKtvlR/?img_index=2">
-                                        <img src="assets/images/footer-img.jpg" alt=" " class="img-fluid radius-image">
+                                        <img src="assets/images/aws-footer2.jpg" alt=" " class="img-fluid radius-image">
                                     </a>
                                 </div>
                                 <div class="col-8 fposts-grid-right">
                                     <h4>
                                         <a href="https://www.instagram.com/p/DHn6VJKtvlR/?img_index=2"
-                                            class="text-bl text-left">A Common Mistake Product Owners Make.</a>
+                                            class="text-bl text-left">Amazon Web Service(AWS) <br> Phase 1.</a>
                                     </h4>
                                     <p class="time"> 11 Minutes ago</p>
                                 </div>
                             </div>
+                            <!-- <div class="col-8 fposts-grid-right">
+                            <div class="video-thumbnail-wrapper">
+                                <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+                                <img src="assets/images/footer-img.jpg" alt="A Common Mistake Product Owners Make" class="video-thumbnail">
+                                <div class="play-button"></div>
+                                </a>
+                            </div>
+                            <h4>
+                                <a href="https://www.instagram.com/p/DHn6VJKtvlR/?img_index=2"
+                                class="text-bl text-left">A Common Mistake Product Owners Make.</a>
+                            </h4>
+                            <p class="time">11 Minutes ago</p>
+                            </div> -->
                             <div class="row fposts-grid-inner mb-4">
                                 <div class="col-4 fposts-grid-left ps-0">
                                     <a href="https://www.instagram.com/p/DHn6VJKtvlR/?img_index=3">
@@ -905,8 +1436,7 @@ ini_set('display_errors', 0);
                                 <div class="col-8 fposts-grid-right">
                                     <h4>
                                         <a href="https://www.instagram.com/p/DHn6VJKtvlR/?img_index=3"
-                                            class="text-bl text-left">Why Though? <br> There are things to consider such
-                                            as:...</a>
+                                            class="text-bl text-left">Amazon Web Service(AWS) <br> Phase 2</a>
                                     </h4>
                                     <p class="time"> 11 Minutes ago</p>
                                 </div>
@@ -932,6 +1462,20 @@ ini_set('display_errors', 0);
             </div>
         </section>
 
+
+        <script>
+            let index = 0;
+            const slider = document.getElementById('newsSlider');
+            const totalSlides = document.querySelectorAll('.news-slide').length;
+
+            function showNextSlide() {
+                index = (index + 1) % totalSlides;
+                slider.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            setInterval(showNextSlide, 5000); // Change every 5 seconds
+        </script>
+
         <!-- Js scripts -->
         <!-- move top -->
         <button onclick="topFunction()" id="movetop" title="Go to top">
@@ -956,6 +1500,32 @@ ini_set('display_errors', 0);
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
             }
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo1").owlCarousel({
+                    loop: true,
+                    margin: 20,
+                    nav: false,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false
+                        },
+                        736: {
+                            items: 1,
+                            nav: false
+                        },
+                        1000: {
+                            items: 2,
+                            nav: false,
+                            loop: false
+                        }
+                    }
+                })
+            })
         </script>
 
         <script>
