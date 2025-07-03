@@ -12,7 +12,7 @@ ini_set('display_errors', 0);
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Project Lead HQ</title>
+    <title>Product Lead HQ | Train, Certify, Get Hired</title>
     <!-- google fonts -->
     <link
         href="http://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&amp;display=swap"
@@ -201,7 +201,8 @@ ini_set('display_errors', 0);
                         <h6 class="title-subw3hny mb-1">About ProductLead HQ</h6>
                         <h3 class="title-w3l mb-4">At Product Lead HQ, we help ambitious professionals.</h3>
                         <p class="mt-3 pe-lg-5">
-                            From non-tech backgrounds even Microbiology make a smooth transition into high-paying tech careers. Whether you
+                            From non-tech backgrounds even Microbiology make a smooth transition into high-paying tech
+                            careers. Whether you
                             want to become a Product Manager, UI/UX Designer, Business Analyst, Data Analyst, or work in
                             Cloud Computing (AWS), we provide the training and support to get you there faster. <br><br>
 
@@ -226,11 +227,8 @@ ini_set('display_errors', 0);
                     </div>
                     <!-- <div class="col-lg-5  d-flex  align-items-center w3hny-passion-item">
                         <div class="row  d-flex">
-                            <div class=" passion-grid-item-pic">
-                                <img src="assets/images/about-img.png" alt="" class="img-fluid radius-image">
-                            </div>
-                            <div class="col-6 passion-grid-item-pic">
-                                <img src="assets/images/client2.png" alt="" class="img-fluid radius-image">
+                            <div class="col-12 passion-grid-item-pic">
+                                <img src="assets/images/home-image.png" alt="" class="img-fluid radius-image">
                             </div>
 
                         </div>
@@ -319,83 +317,104 @@ ini_set('display_errors', 0);
 
     </div>
     <!--/Gallery-Section-->
-    <section class="w3l-gallery" id="services">
+    <section class="w3l-gallery py-5" id="services">
         <div class="destionation-innf py-5">
             <div class="container py-lg-5 py-md-4 py-2 HomePageGallery">
                 <div class="title-content text-center">
                     <!-- <h6 class="title-subw3hny text-center">Services</h6> -->
                     <h3 class="title-w3l mb-5 text-center">Career Updates</h3>
                 </div>
-                <!--/grids-grids-->
-                <ul class="gallery_agile">
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
-                                <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Cyber Security.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
-                                <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Data Analysis.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
-                                <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Product Design UI/UX.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                <div class="row g-4">
 
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
-                                <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Product Managemant.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
+                    <!-- Left Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                    <img src="assets/images/product-ownership.jpg" alt=" " class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Ownership.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
-                                <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Bussiness Analysis.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                                    <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Data Analysis.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
+                    </div>
+
+                    <!-- Middle Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                    <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Cyber Security.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                                    <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Design UI/UX.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                    <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Managemant.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                                    <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Business Analysis.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2 w3_agile_portfolio_grid">
                             <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
                                 <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
@@ -406,89 +425,87 @@ ini_set('display_errors', 0);
                                 </div>
                             </a>
                         </div>
+                    </div>
 
-                    </li>
-                    <!-- <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g4.jpg">
-                                <img src="assets/images/g4.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+                </div>
+                <!--/grids-grids-->
+                <!-- <ul class="gallery_agile">
                     <li>
                         <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g5.jpg">
-                                <img src="assets/images/g5.jpg" alt=" " class="img-fluid radius-image" />
+                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
+                                <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                                        <h3>Cyber Security.</h3>
+            </div>
+        </div>
+        </a>
+        </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                    <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Data Analysis.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g6.jpg">
-                                <img src="assets/images/g6.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                    <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Product Design UI/UX.</h3>
                         </div>
+                    </div>
+                </a>
+            </div>
 
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g7.jpg">
-                                <img src="assets/images/g7.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
+                    <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Product Managemant.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g8.jpg">
-                                <img src="assets/images/g8.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                    <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Bussiness Analysis.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g9.jpg">
-                                <img src="assets/images/g9.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                    <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Amazon Web Service(AWS).</h3>
                         </div>
+                    </div>
+                </a>
+            </div>
 
-                    </li> -->
-                </ul>
+        </li>
+
+        </ul> -->
 
             </div>
         </div>
@@ -684,6 +701,7 @@ ini_set('display_errors', 0);
     </section>
 
 
+
     <!-- Optional: Navigation controls -->
     <!-- <div class="control-button">
             <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
@@ -692,9 +710,9 @@ ini_set('display_errors', 0);
         <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
-         </div> -->
+         </div> 
 
-    </div>
+    </div>-->
 
 
     <!-- <section class="cards_body">
@@ -861,9 +879,6 @@ ini_set('display_errors', 0);
         </div>
         <!-- //grids -->
     </section>
-
-
-
 
 
 

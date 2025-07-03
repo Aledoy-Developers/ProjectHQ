@@ -40,7 +40,7 @@ else
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Project Lead HQ</title>
+    <title>Product Lead HQ | Train, Certify, Get Hired</title>
     <!-- google fonts -->
     <link
         href="http://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&amp;display=swap"
@@ -134,8 +134,8 @@ else
                     Your registration for the <?php echo ucwords($program); ?> was successful <br><br>
 
                     Please <a
-                        href="stripe/?am=<?php echo base64_encode($amount);?>&nm=<?php echo base64_encode($fullname);?>&em=<?php echo base64_encode($email);?>">proceed</a>
-                    to make payment for the program.
+                        href="stripe/checkout.php?am=<?php echo base64_encode($amount);?>&nm=<?php echo base64_encode($fullname);?>&em=<?php echo base64_encode($email);?>&program=<?php echo base64_encode($program);?>">proceed</a>
+                    to make payment for the program of $<?php echo ($amount) ?>.
                 </p>
 
 

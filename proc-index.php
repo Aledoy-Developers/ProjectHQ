@@ -4,8 +4,7 @@ error_reporting(E_ALL);
 ini_set("display_errors" ,0);
 
 require_once('PHPMailer/PHPMailerAutoload.php');
-
-
+include('connect.php');
 
  $fullname = $_POST['full_name'];
  $email = $_POST['email'];
@@ -28,7 +27,7 @@ require_once('PHPMailer/PHPMailerAutoload.php');
     exit;
  }
 
-
+ mysqli_query($db,"insert into registration set fullname = '$fullname', email = '$email', phone = '$number', program = '$program', skill = '$skill'");
 
 $subject = $fullname.' registers for '.$program;
 $body = '
@@ -52,22 +51,26 @@ $body = '
 ';
 
 $mail = new PHPMailer();
-$mail->IsSMTP();
-$mail->Port = 465;
-$mail->SMTPAuth = true;
-$mail->Username = 'notification@ubslite-bn.info';
-$mail->Password = 'Aledoy@2025';
-$mail->Host = 'mail.ubslite-bn.info';
-$mail->SMTPSecure = 'ssl';
-$mail->From = "notification@ubslite-bn.info";
+// $mail->IsSMTP();
+// $mail->Port = 587;
+// $mail->SMTPAuth = true;
+// $mail->Username = 'noreply@ecardnaija.com';
+// $mail->Password = 'Aledoy@2025';
+// $mail->Host = 'mail.ecardnaija.com';
+// $mail->SMTPSecure = 'tls';
+$mail->From = "noreply@ecardnaija.com";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('luabikoye@gmail.com');
+$mail->AddAddress('info@productleadhq.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
 $mail->Body = $body;
+$mail->send();
+
+
 
 if (!$mail->send()) {
+   $info = 'error';
    $correction = 'Could Not Send Mail';
    include('index.php');
    exit;
