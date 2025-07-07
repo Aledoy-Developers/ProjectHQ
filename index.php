@@ -324,7 +324,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                <a href="#contact">
                                     <img src="assets/images/product-ownership.jpg" alt=" " class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -337,7 +337,7 @@ ini_set('display_errors', 0);
                         </div>
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                                <a href="#contact">
                                     <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -354,7 +354,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex flex-column gap-4">
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                <a href="#contact">
                                     <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -367,7 +367,7 @@ ini_set('display_errors', 0);
                         </div>
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                                <a href="#contact">
                                     <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -380,7 +380,7 @@ ini_set('display_errors', 0);
                         </div>
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="instagram.com/p/DKR8HaHiH0v/">
+                                <a href="#contact">
                                     <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -397,7 +397,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
                         <div class="p-2">
                             <div class="w3_agile_portfolio_grid">
-                                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                                <a href="#contact">
                                     <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
                                     <div class="w3layouts_news_grid_pos">
                                         <div class="wthree_text">
@@ -409,7 +409,7 @@ ini_set('display_errors', 0);
                             </div>
                         </div>
                         <div class="p-2 w3_agile_portfolio_grid">
-                            <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                            <a href="#contact">
                                 <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
