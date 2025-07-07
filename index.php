@@ -659,7 +659,7 @@ ini_set('display_errors', 0);
                     <div class="carousel-item">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 2">
+                                <img src="assets/images/product-ownership.jpg" class="img-fluid rounded" alt="Blog Post 2">
                             </div>
                             <div class="col-md-6">
                                 <h4>Product Ownership Training</h4><br>
@@ -677,7 +677,7 @@ ini_set('display_errors', 0);
                     <div class="carousel-item">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 3">
+                                <img src="assets/images/PRODUCT DESIGN 1.jpg" class="img-fluid rounded" alt="Blog Post 3">
                             </div>
                             <div class="col-md-6">
                                 <h4>Product Design UI/UX</h4><br>
