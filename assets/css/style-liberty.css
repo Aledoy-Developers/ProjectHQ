@@ -2767,12 +2767,13 @@ textarea.form-control-lg {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    height: 600px !important;
     gap: 20px;
   }
 
   .carousel-item img {
     /* width: 300px; */
-    /* height: 200px; */
+    height: 500px;
     /* object-fit: cover; */
     border-radius: 8px;
   }
@@ -3021,6 +3022,9 @@ textarea.form-control-lg {
   font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
+  a{
+    text-decoration: none;
+  }
 }
 
 .btn-clear {
@@ -20125,6 +20129,11 @@ button.owl-next {
 
 /*--//features--*/
 /*--/gallery--*/
+
+.slider-btn a{
+    text-decoration: none !important;
+    color: #fff;
+}
 
 .w3l-gallery {
     background: var(--bg-lightgrey);

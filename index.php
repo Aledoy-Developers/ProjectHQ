@@ -247,13 +247,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex align-items-center w3hny-passion-item">
                         <div class="row d-flex">
                             <div class="passion-grid-item-pic">
-                                <div class="image-hover-wrapper">
-                                    <!-- First Image (Default) -->
-                                    <img src="assets/images/about-img.png" alt="Main Image" class="img-fluid radius-image main-img">
-
-                                    <!-- Second Image (Zooms In From Center) -->
-                                    <img src="assets/images/client2.png" alt="Hover Image" class="img-fluid radius-image hover-img">
-                                </div>
+                                <img src="assets/images/ab-img.jpg" alt="" class="img-fluid radius-image">
                             </div>
                         </div>
                     </div>
@@ -647,12 +641,16 @@ ini_set('display_errors', 0);
                     <div class="carousel-item active">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 1">
+                                <img src="assets/images/Data Analysis.jpg" class="img-fluid rounded" alt="Blog Post 1">
                             </div>
                             <div class="col-md-6">
-                                <h4>The Future of Logistics: Mobile Apps & Same-Day Delivery</h4><br>
+                                <h4>Data Analysis</h4><br>
                                 <p class="fs-5">With mobile-first solutions becoming the norm, logistics companies are racing to make deliveries faster and more convenient. Laytob Limited is staying ahead by exploring app-based order systems and lightning-fast same-day services.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <p class="fs-6">
+                                    Start Date: 01/10/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -664,9 +662,13 @@ ini_set('display_errors', 0);
                                 <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 2">
                             </div>
                             <div class="col-md-6">
-                                <h4>How AI is Changing the Delivery Industry</h4><br>
-                                <p class="fs-5">Artificial Intelligence is transforming logistics. From route optimization to customer service chatbots, companies like Laytob Limited are embracing smart tech to improve delivery speed and customer satisfaction.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <h4>Product Ownership Training</h4><br>
+                                <p class="fs-5">Product ownership refers to the role and responsibility of guiding the development and success of a product from conception to delivery. A Product Owner acts as the bridge between the business and the development team, ensuring that the product delivers value to users and aligns with business goals. Key responsibilities include defining the product vision, managing the product backlog, setting priorities, and collaborating with stakeholders.</p><br>
+                                <p class="fs-6">
+                                    Start Date: 02/08/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -678,9 +680,15 @@ ini_set('display_errors', 0);
                                 <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 3">
                             </div>
                             <div class="col-md-6">
-                                <h4>GPS & Real-Time Tracking: The New Standard in Deliveries</h4><br>
-                                <p class="fs-5">Customers now expect live updates on where their packages are. GPS technology allows Laytob Limied to provide precise, real-time package tracking — giving customers peace of mind from dispatch to doorstep.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <h4>Product Design UI/UX</h4><br>
+                                <p class="fs-5">UI (User Interface) Design focuses on the visual elements of a product—such as layout, colors, typography, and interactive components. It ensures that the interface is attractive, consistent, and easy to use.
+
+                                    UX (User Experience) Design is about the overall feel and functionality of the product. It involves understanding user needs, creating logical flows, and ensuring the product is intuitive and satisfying to interact with..</p><br>
+                                <p class="fs-6">
+                                    Start Date: 02/08/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1283,45 +1291,6 @@ ini_set('display_errors', 0);
         </div>
     </section>
 
-    <!-- <section class="w3l-contact-main" id="contact">
-        <div class="contact-infhny py-5 pb-0">
-            <div class="container py-lg-3 pb-0">
-                <div class="top-map">
-                    <div class="map-content-9">
-                        <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-                            <div class="form-top1">
-                                <div class="w3header-section text-center">
-                                    <h6 class="title-subw3hny">Get In Touch </h6>
-                                    <h3 class="title-w3l mb-0">
-                                        Fill the form and send your query</h3>
-                                    <p class="mb-lg-5 mb-4 text-center">We have made it easy for clients to reach us and
-                                        get
-                                        their solutions
-                                        weaved</p>
-                                </div>
-
-                                <div class="form-top">
-                                    <div class="form-top-left">
-                                        <input type="text" name="w3lName" id="w3lName" placeholder="Name" required="">
-                                        <input type="number" name="w3lPhone" placeholder="Your phone number" required="">
-                                        <input type="email" name="w3lSender" id="w3lSender" placeholder="Email*" required="">
-                                        <input type="text" name="w3lSubject" id="w3lName" placeholder="Subject" required="">
-                                    </div>
-                                    <div class="form-top-righ">
-                                        <textarea name="w3lMessage" id="w3lMessage" placeholder="Message*" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="text-lg-right text-center">
-                                    <button type="submit" class="btn btn-style btn-primary">Submit Now <i class="fas fa-paper-plane ms-2"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- //contact-form -->
     <!-- contact-form -->
     <!-- <section class="w3l-contact-main py-5" id="contact2">
         <div class="container py-md-4 py-3">
