@@ -247,7 +247,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex align-items-center w3hny-passion-item">
                         <div class="row d-flex">
                             <div class="passion-grid-item-pic">
-                                <img src="assets/images/ab-img.jpg" alt="" class="img-fluid radius-image">
+                                <img src="assets/images/chinny.jpg" alt="" class="img-fluid radius-image">
                             </div>
                         </div>
                     </div>
