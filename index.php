@@ -662,7 +662,7 @@ ini_set('display_errors', 0);
                                 <img src="assets/images/product-ownership.jpg" class="img-fluid rounded" alt="Blog Post 2">
                             </div>
                             <div class="col-md-6">
-                                <h4>Product Ownership Training</h4><br>
+                                <h4>Product Ownership Services</h4><br>
                                 <p class="fs-5">Product ownership refers to the role and responsibility of guiding the development and success of a product from conception to delivery. A Product Owner acts as the bridge between the business and the development team, ensuring that the product delivers value to users and aligns with business goals. Key responsibilities include defining the product vision, managing the product backlog, setting priorities, and collaborating with stakeholders.</p><br>
                                 <p class="fs-6">
                                     Start Date: 02/08/2025<br>
