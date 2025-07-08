@@ -2,7 +2,7 @@
 
 include('connect.php');
 
-echo '<h2>Registered Users</h2>';
+echo '<h2>Registered Users - <a href="export.php">Export to Ms Excel</a></h2>';
 
 $res = mysqli_query($db,"select * from registration order by id desc");
 $num = mysqli_num_rows($res);
