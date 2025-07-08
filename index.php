@@ -1,6 +1,6 @@
 <?php
 
-
+include('region_pricing.php');
 ini_set('display_errors', 0);
 
 ?>
@@ -247,13 +247,7 @@ ini_set('display_errors', 0);
                     <div class="col-lg-4 d-flex align-items-center w3hny-passion-item">
                         <div class="row d-flex">
                             <div class="passion-grid-item-pic">
-                                <div class="image-hover-wrapper">
-                                    <!-- First Image (Default) -->
-                                    <img src="assets/images/about-img.png" alt="Main Image" class="img-fluid radius-image main-img">
-
-                                    <!-- Second Image (Zooms In From Center) -->
-                                    <img src="assets/images/client2.png" alt="Hover Image" class="img-fluid radius-image hover-img">
-                                </div>
+                                <img src="assets/images/chinny.jpg" alt="" class="img-fluid radius-image">
                             </div>
                         </div>
                     </div>
@@ -317,84 +311,109 @@ ini_set('display_errors', 0);
 
     </div>
     <!--/Gallery-Section-->
-    <section class="w3l-gallery" id="services">
+    <section class="w3l-gallery py-5" id="services">
         <div class="destionation-innf py-5">
             <div class="container py-lg-5 py-md-4 py-2 HomePageGallery">
                 <div class="title-content text-center">
                     <!-- <h6 class="title-subw3hny text-center">Services</h6> -->
                     <h3 class="title-w3l mb-5 text-center">Career Updates</h3>
                 </div>
-                <!--/grids-grids-->
-                <ul class="gallery_agile">
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
-                                <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Cyber Security.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
-                                <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Data Analysis.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
-                                <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Product Design UI/UX.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                <div class="row g-4">
 
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
-                                <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Product Managemant.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
+                    <!-- Left Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/product-ownership.jpg" alt=" "
+                                        class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Ownership.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
-                                <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Bussiness Analysis.</h3>
-                                        <!-- <p>Lorem Ipsum</p> -->
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Data Analysis.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                    </div>
+
+                    <!-- Middle Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/Cyber security.jpg" alt=" "
+                                        class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Cyber Security.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" "
+                                        class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Design UI/UX.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/product-management.jpg" alt=" "
+                                        class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Product Managemant.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-lg-4 d-flex flex-column gap-4 align-items-center justify-content-center">
+                        <div class="p-2">
+                            <div class="w3_agile_portfolio_grid">
+                                <a href="#contact">
+                                    <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
+                                    <div class="w3layouts_news_grid_pos">
+                                        <div class="wthree_text">
+                                            <h3>Business Analysis.</h3>
+                                            <!-- <p>Lorem Ipsum</p> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2 w3_agile_portfolio_grid">
+                            <a href="#contact">
                                 <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
@@ -404,89 +423,87 @@ ini_set('display_errors', 0);
                                 </div>
                             </a>
                         </div>
+                    </div>
 
-                    </li>
-                    <!-- <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g4.jpg">
-                                <img src="assets/images/g4.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+                </div>
+                <!--/grids-grids-->
+                <!-- <ul class="gallery_agile">
                     <li>
                         <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g5.jpg">
-                                <img src="assets/images/g5.jpg" alt=" " class="img-fluid radius-image" />
+                            <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
+                                <img src="assets/images/Cyber security.jpg" alt=" " class="img-fluid radius-image" />
                                 <div class="w3layouts_news_grid_pos">
                                     <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                                        <h3>Cyber Security.</h3>
+            </div>
+        </div>
+        </a>
+        </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                    <img src="assets/images/Data Analysis.jpg" alt="" class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Data Analysis.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g6.jpg">
-                                <img src="assets/images/g6.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                    <img src="assets/images/PRODUCT DESIGN 1.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Product Design UI/UX.</h3>
                         </div>
+                    </div>
+                </a>
+            </div>
 
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g7.jpg">
-                                <img src="assets/images/g7.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKR8HaHiH0v/">
+                    <img src="assets/images/product-management.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Product Managemant.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g8.jpg">
-                                <img src="assets/images/g8.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="target_blank https://www.instagram.com/p/DKZ1Sw_C_8T/?img_index=1">
+                    <img src="assets/images/bussiness.jpg" alt="" class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Bussiness Analysis.</h3>
                         </div>
-                    </li>
-                    <li>
-                        <div class="w3_agile_portfolio_grid">
-                            <a href="assets/images/g9.jpg">
-                                <img src="assets/images/g9.jpg" alt=" " class="img-fluid radius-image" />
-                                <div class="w3layouts_news_grid_pos">
-                                    <div class="wthree_text">
-                                        <h3>Factorship</h3>
-                                        <p>Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </a>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a target="_blank" href="https://www.instagram.com/p/DIL9BeMNkUp/?img_index=1">
+                    <img src="assets/images/aws.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Amazon Web Service(AWS).</h3>
                         </div>
+                    </div>
+                </a>
+            </div>
 
-                    </li> -->
-                </ul>
+        </li>
+
+        </ul> -->
 
             </div>
         </div>
@@ -628,12 +645,20 @@ ini_set('display_errors', 0);
                     <div class="carousel-item active">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 1">
+                                <img src="assets/images/Data Analysis.jpg" class="img-fluid rounded" alt="Blog Post 1">
                             </div>
                             <div class="col-md-6">
-                                <h4>The Future of Logistics: Mobile Apps & Same-Day Delivery</h4><br>
-                                <p class="fs-5">With mobile-first solutions becoming the norm, logistics companies are racing to make deliveries faster and more convenient. Laytob Limited is staying ahead by exploring app-based order systems and lightning-fast same-day services.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <h4>Data Analysis</h4><br>
+                                <p class="fs-5">With mobile-first solutions becoming the norm, logistics companies are
+                                    racing to make deliveries faster and more convenient. Laytob Limited is staying
+                                    ahead by exploring app-based order systems and lightning-fast same-day services.</p>
+                                <br>
+                                <p class="fs-6">
+                                    Start Date: 01/10/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With
+                                            Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -642,12 +667,23 @@ ini_set('display_errors', 0);
                     <div class="carousel-item">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 2">
+                                <img src="assets/images/product-ownership.jpg" class="img-fluid rounded"
+                                    alt="Blog Post 2">
                             </div>
                             <div class="col-md-6">
-                                <h4>How AI is Changing the Delivery Industry</h4><br>
-                                <p class="fs-5">Artificial Intelligence is transforming logistics. From route optimization to customer service chatbots, companies like Laytob Limited are embracing smart tech to improve delivery speed and customer satisfaction.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <h4>Product Ownership Services</h4><br>
+                                <p class="fs-5">Product ownership refers to the role and responsibility of guiding the
+                                    development and success of a product from conception to delivery. A Product Owner
+                                    acts as the bridge between the business and the development team, ensuring that the
+                                    product delivers value to users and aligns with business goals. Key responsibilities
+                                    include defining the product vision, managing the product backlog, setting
+                                    priorities, and collaborating with stakeholders.</p><br>
+                                <p class="fs-6">
+                                    Start Date: 02/08/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With
+                                            Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -656,12 +692,24 @@ ini_set('display_errors', 0);
                     <div class="carousel-item">
                         <div class="row align-items-center bg-white p-3 rounded shadow">
                             <div class="col-md-6">
-                                <img src="assets/images/blog-img.jpg" class="img-fluid rounded" alt="Blog Post 3">
+                                <img src="assets/images/PRODUCT DESIGN 1.jpg" class="img-fluid rounded"
+                                    alt="Blog Post 3">
                             </div>
                             <div class="col-md-6">
-                                <h4>GPS & Real-Time Tracking: The New Standard in Deliveries</h4><br>
-                                <p class="fs-5">Customers now expect live updates on where their packages are. GPS technology allows Laytob Limied to provide precise, real-time package tracking — giving customers peace of mind from dispatch to doorstep.</p><br>
-                                <p class="fs-6">Admin - Mar 22, 2023 - 2 min read</p>
+                                <h4>Product Design UI/UX</h4><br>
+                                <p class="fs-5">UI (User Interface) Design focuses on the visual elements of a
+                                    product—such as layout, colors, typography, and interactive components. It ensures
+                                    that the interface is attractive, consistent, and easy to use.
+
+                                    UX (User Experience) Design is about the overall feel and functionality of the
+                                    product. It involves understanding user needs, creating logical flows, and ensuring
+                                    the product is intuitive and satisfying to interact with..</p><br>
+                                <p class="fs-6">
+                                    Start Date: 02/08/2025<br>
+                                    End Date: 01/01/2026<br><br>
+                                    <a href="#contact"><button class="btn-primary slider-btn">Register With
+                                            Us</button></a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -682,6 +730,7 @@ ini_set('display_errors', 0);
     </section>
 
 
+
     <!-- Optional: Navigation controls -->
     <!-- <div class="control-button">
             <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
@@ -690,9 +739,9 @@ ini_set('display_errors', 0);
         <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
-         </div> -->
+         </div> 
 
-    </div>
+    </div>-->
 
 
     <!-- <section class="cards_body">
@@ -742,7 +791,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -761,7 +811,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -780,7 +831,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -799,7 +851,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -818,7 +871,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -837,7 +891,8 @@ ini_set('display_errors', 0);
                             <div class="testimonial-content">
                                 <div class="testimonial">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
+                                            laudantium
                                             voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
                                             Dolores molestias adipisci dolor sit amet!.</p>
                                         <!-- <div class="test-img"><img src="assets/images/ab2.jpg" class="img-fluid" alt="client-img">
@@ -859,9 +914,6 @@ ini_set('display_errors', 0);
         </div>
         <!-- //grids -->
     </section>
-
-
-
 
 
 
@@ -1218,37 +1270,44 @@ ini_set('display_errors', 0);
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="aws-cloud" id="radio">
-                            <span>AWS Cloud Computing: <strong>$2,000</strong></span>
+                            <span>AWS Cloud Computing:
+                                <strong><?php echo $currency.number_format($pricing['aws']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="product-ownership" id="radio">
-                            <span>Product Ownership: <strong>$2,000</strong></span>
+                            <span>Product Ownership:
+                                <strong><?php echo $currency.number_format($pricing['product_owner']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="product-management" id="radio">
-                            <span>Product Management: <strong>$2,500</strong></span>
+                            <span>Product Management:
+                                <strong><?php echo $currency.number_format($pricing['product_mgt']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="data-analysis" id="radio">
-                            <span>Data Analysis: <strong>$3,000</strong></span>
+                            <span>Data Analysis:
+                                <strong><?php echo $currency.number_format($pricing['data_analysis']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="business-analysis" id="radio">
-                            <span>Business Analysis: <strong>$1,500</strong></span>
+                            <span>Business Analysis:
+                                <strong><?php echo $currency.number_format($pricing['business_analysis']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="product-design" id="radio">
-                            <span>Product Design (UI/UX): <strong>$1,200</strong></span>
+                            <span>Product Design (UI/UX):
+                                <strong><?php echo $currency.number_format($pricing['product_design']); ?></strong></span>
                         </label>
 
                         <label class="radio-option">
                             <input type="radio" name="program" value="cyber-security" id="radio">
-                            <span>Cyber Security: <strong>$2,000</strong></span>
+                            <span>Cyber Security:
+                                <strong><?php echo $currency.number_format($pricing['cyber']); ?></strong></span>
                         </label>
                     </div>
 
@@ -1266,45 +1325,6 @@ ini_set('display_errors', 0);
         </div>
     </section>
 
-    <!-- <section class="w3l-contact-main" id="contact">
-        <div class="contact-infhny py-5 pb-0">
-            <div class="container py-lg-3 pb-0">
-                <div class="top-map">
-                    <div class="map-content-9">
-                        <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-                            <div class="form-top1">
-                                <div class="w3header-section text-center">
-                                    <h6 class="title-subw3hny">Get In Touch </h6>
-                                    <h3 class="title-w3l mb-0">
-                                        Fill the form and send your query</h3>
-                                    <p class="mb-lg-5 mb-4 text-center">We have made it easy for clients to reach us and
-                                        get
-                                        their solutions
-                                        weaved</p>
-                                </div>
-
-                                <div class="form-top">
-                                    <div class="form-top-left">
-                                        <input type="text" name="w3lName" id="w3lName" placeholder="Name" required="">
-                                        <input type="number" name="w3lPhone" placeholder="Your phone number" required="">
-                                        <input type="email" name="w3lSender" id="w3lSender" placeholder="Email*" required="">
-                                        <input type="text" name="w3lSubject" id="w3lName" placeholder="Subject" required="">
-                                    </div>
-                                    <div class="form-top-righ">
-                                        <textarea name="w3lMessage" id="w3lMessage" placeholder="Message*" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="text-lg-right text-center">
-                                    <button type="submit" class="btn btn-style btn-primary">Submit Now <i class="fas fa-paper-plane ms-2"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- //contact-form -->
     <!-- contact-form -->
     <!-- <section class="w3l-contact-main py-5" id="contact2">
         <div class="container py-md-4 py-3">
@@ -1462,16 +1482,16 @@ ini_set('display_errors', 0);
 
 
         <script>
-            let index = 0;
-            const slider = document.getElementById('newsSlider');
-            const totalSlides = document.querySelectorAll('.news-slide').length;
+        let index = 0;
+        const slider = document.getElementById('newsSlider');
+        const totalSlides = document.querySelectorAll('.news-slide').length;
 
-            function showNextSlide() {
-                index = (index + 1) % totalSlides;
-                slider.style.transform = `translateX(-${index * 100}%)`;
-            }
+        function showNextSlide() {
+            index = (index + 1) % totalSlides;
+            slider.style.transform = `translateX(-${index * 100}%)`;
+        }
 
-            setInterval(showNextSlide, 5000); // Change every 5 seconds
+        setInterval(showNextSlide, 5000); // Change every 5 seconds
         </script>
 
         <!-- Js scripts -->
@@ -1501,6 +1521,9 @@ ini_set('display_errors', 0);
         </script>
 
         <script>
+<<<<<<<<< Temporary merge branch 1
+        let selectedRadio = null;
+=========
             $(document).ready(function() {
                 $("#owl-demo1").owlCarousel({
                     loop: true,
