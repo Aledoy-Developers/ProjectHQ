@@ -1520,10 +1520,7 @@ ini_set('display_errors', 0);
         }
         </script>
 
-        <script>
-<<<<<<<<< Temporary merge branch 1
-        let selectedRadio = null;
-=========
+        <!-- <script>
             $(document).ready(function() {
                 $("#owl-demo1").owlCarousel({
                     loop: true,
@@ -1545,9 +1542,10 @@ ini_set('display_errors', 0);
                             loop: false
                         }
                     }
-                })
+                }
             })
-        </script>
+        })
+        </script> -->
 
         <script>
         let selectedRadio = null;
