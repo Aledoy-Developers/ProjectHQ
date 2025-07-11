@@ -12,7 +12,7 @@ $country = $data->country ?? 'Unknown';
 if($country == 'NG')
 {
     $currency = 'N';
-    $pricing = array('aws' => '3055880', 'product_owner' => '3055880', 'product_mgt' => '3819850', 'data_analysis' => '4583820', 'business_analysis' => '2291910', 'product_design' => '1833528', 'cyber' => '3055880');
+    $pricing = array('aws' => '1800000', 'product_owner' => '2800000', 'product_mgt' => '3000000', 'data_analysis' => '3500000', 'business_analysis' => '1500000', 'product_design' => '1200000', 'cyber' => '2000000');
 } elseif($country == 'US' || $country == 'CA')
 {
     $currency = '$';

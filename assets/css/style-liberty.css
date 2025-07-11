@@ -2428,7 +2428,8 @@ progress {
     -o-border-radius: var(--border-radius);
     -moz-border-radius: var(--border-radius);
     border: none;
-    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+    /* box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03); */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
   
   .w3l-clients .testi-des {
@@ -2439,6 +2440,7 @@ progress {
   .w3l-clients blockquote p {
     font-size: 1.2em;
     line-height: 28px;
+    height: 200px;
   }
   
   .w3l-clients blockquote p::before {
@@ -7551,13 +7553,12 @@ fieldset:disabled .btn {
     --bs-aspect-ratio: calc(9 / 21 * 100%)
 }
 
-.fixed-top {
-    /* position: fixed; */
+/* .fixed-top {
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030
-}
+} */
 
 .fixed-bottom {
     position: fixed;
