@@ -19229,10 +19229,15 @@ a.dropdown-item.active {
         display: flex;
         /* justify-content:right; */
     }
+    .w3hny-passion-item .passion-grid-item-pic {
+        display: flex;
+        width: 100% !important;
+    }
     .w3hny-passion-item .passion-grid-item-pic img {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr;
-        height: 300px;
+        display: flex;
+        width: 100% !important;
+        /* grid-template-columns: 1fr 1fr; */
+        /* height: 300px; */
         /* flex-direction: column !important; */
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+ini_set("display_errors", 0);
 $ip = $_SERVER['REMOTE_ADDR'];
 $response = file_get_contents("http://ipinfo.io/{$ip}/json");
 $data = json_decode($response);
