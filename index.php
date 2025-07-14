@@ -798,7 +798,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Product Design</h3>
-                                            <h4>Daniel Reed</h4>
+                                            <h4>Adeniyi Jones</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -815,7 +815,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Data Analysis</h3>
-                                            <h4>Lena Morgan</h4>
+                                            <h4>Cynthia Lawson</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -832,7 +832,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Product Ownership</h3>
-                                            <h4>Ethan Clarke</h4>
+                                            <h4>Abdulrahman Yusuf</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -849,7 +849,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Bussiness Analysis</h3>
-                                            <h4>Chloe Adams</h4>
+                                            <h4>Adams Johnson</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -866,7 +866,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Amazon Web Service(AWS)</h3>
-                                            <h4>Jordan Blake</h4>
+                                            <h4>Chidinma Okoye</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -883,7 +883,7 @@ ini_set('display_errors', 0);
                                     <div class="testi-des">
                                         <div class="peopl align-self">
                                             <h3>Cyber Security</h3>
-                                            <h4>Nia Roberts</h4>
+                                            <h4>Valeria Okoli</h4>
                                         </div>
                                     </div>
                                 </div>
