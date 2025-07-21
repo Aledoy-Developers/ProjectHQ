@@ -51,17 +51,17 @@ $body = '
 ';
 
 $mail = new PHPMailer();
-// $mail->IsSMTP();
-// $mail->Port = 587;
-// $mail->SMTPAuth = true;
-// $mail->Username = 'officenotification@cliprivateac.com';
-// $mail->Password = 'au7r%p0D#+2D';
-// $mail->Host = 'mail.cliprivateac.com';
-// $mail->SMTPSecure = 'tls';
+$mail->IsSMTP();
+$mail->Port = 587;
+$mail->SMTPAuth = true;
+$mail->Username = 'officenotification@cliprivateac.com';
+$mail->Password = 'au7r%p0D#+2D';
+$mail->Host = 'mail.cliprivateac.com';
+$mail->SMTPSecure = 'tls';
 $mail->From = "officenotification@cliprivateac.com";
 $mail->FromName = "ProductHQ";
-$mail->AddAddress('info@productleadhq.com');
-//$mail->AddAddress('soagafaruk@gmail.com');
+// $mail->AddAddress('info@productleadhq.com');
+$mail->AddAddress('soagafaruk@gmail.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
