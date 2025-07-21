@@ -1237,7 +1237,7 @@ ini_set('display_errors', 0);
 
 
                     <div class="input-group">
-                        <label>Full name</label>
+                        <label>Full name</label> 
                         <input type="text" placeholder="Your answer" name="full_name" />
 
                         <label>Email</label>
