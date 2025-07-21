@@ -1,3 +1,4 @@
+
 <?php
 
 error_reporting(E_ALL);
@@ -54,14 +55,14 @@ $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = 'officenotification@cliprivateac.com';
-$mail->Password = 'au7r%p0D#+2D';
-$mail->Host = 'mail.cliprivateac.com';
+$mail->Username = 'noreply@productleadhq.com';
+$mail->Password = 'yub^)#9l{!RP';
+$mail->Host = 'mail.ecardnaija.com';
 $mail->SMTPSecure = 'tls';
-$mail->From = "officenotification@cliprivateac.com";
+$mail->From = "noreply@productleadhq.com";
 $mail->FromName = "ProductHQ";
-// $mail->AddAddress('info@productleadhq.com');
-$mail->AddAddress('soagafaruk@gmail.com');
+$mail->AddAddress('info@productleadhq.com');
+// $mail->AddAddress('soagafaruk@gmail.com');
 $mail->CharSet = 'UTF-8';
 $mail->IsHTML(true);
 $mail->Subject = $subject;
@@ -84,3 +85,4 @@ $em = base64_encode($email);
 
 header("Location: thankyou.php?nm=$name&program=$pr&em=$em");
 exit;
+?>
